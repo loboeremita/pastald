@@ -1,0 +1,151 @@
+\documentclass[12pt]{pastald}
+\usepackage[brazil]{babel}
+
+%---------------------Informações Gerais---------------------------
+
+\lider{Lobo Eremita}
+\divisao{Divisão Sul Americana}
+\uniao{União}
+\associacao{Associação/Missão}
+\regiao{00ª Região}
+\distrito{Distrito de Cidade}
+\clube{CFL Melhor do Mundo}
+\cidade{Cidade -- Estado}
+\ano{2018}
+
+%  -------------------------------------------------------------
+% |                      Começo do documento                    |
+%  -------------------------------------------------------------
+
+\begin{document}
+% \tracingall
+
+%------------------------Capa-----------------------------------
+
+\maketitle 
+
+%--------------------------Agradecimentos-------------------------
+
+%% Caso não queira a seção agradecimentos comente as linhas abaixo
+%% adicionando um % (porcento) no inicia de cada uma.
+
+\vspace*{\fill}
+\thispagestyle{empty}
+\section*{\centering{AGRADECIMENTOS}}
+\vspace{2cm}
+% Escreva seus agradecimentos abaixo:
+
+
+% Final dos agradecimentos.
+\vspace*{\fill}
+
+%------------------------Dedicatória-----------------------------
+
+%% Caso não queira a seção dedicatória comente as linhas abaixo
+%% adicionando um % (porcento) no inicia de cada uma.
+
+\newpage
+\vspace*{\fill}
+\thispagestyle{empty}
+\section*{\centering{DEDICATÓRIA}}
+\vspace{2cm}
+% Escreva sua dedicatória abaixo:
+
+
+% Final da dedicatória.
+\vspace*{\fill}
+
+%--------------------------Mensagem--------------------------------
+
+%% Caso não queira a seção Mensagem comente as linhas abaixo
+%% adicionando um % (porcento) no inicia de cada uma.
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{flushright}
+\begin{minipage}{12cm}
+\begin{flushright}
+% Escreva sua mensagem ou versículo abaixo:
+
+{\itshape
+``Combati o bom combate, terminei a corrida, guardei a fé.''
+}
+\\ 2 Timóteo 4:7
+
+% Fim da mensagem
+\end{flushright}
+\end{minipage}
+\end{flushright}
+\vspace{5cm}
+
+%--------------------------Sumário------------------------------
+
+\newpage
+\tableofcontents
+
+%------------------------Pré-Requisitos-------------------------
+
+%% Adicione suas informações no arquivo pre-requisitos.tex
+
+\newpage
+\vspace*{\fill}
+\thispagestyle{empty}
+\section*{PRÉ-REQUISITOS}
+\addcontentsline{toc}{section}{PRÉ-REQUISITOS}%
+\vspace*{\fill}
+
+\include{pre-requisitos}
+
+%-----------------Crescimento pessoal e espiritual--------------
+
+%% Adicione suas informações no arquivo crescimento.tex
+
+\newpage
+\vspace*{\fill}
+\thispagestyle{empty}
+\section{CRESCIMENTO PESSOAL E ESPIRITUAL}
+\vspace*{\fill}
+
+\include{crescimento}
+
+%--------Fundamentos do aconselhamento dos desbravadores-------
+
+%% Adicione suas informações no arquivo fundamentos.tex
+
+\newpage
+\vspace*{\fill}
+\thispagestyle{empty}
+\section{FUNDAMENTOS DO ACONSELHAMENTO DOS DESBRAVADORES}
+\vspace*{\fill}
+
+\include{fundamentos}
+
+%------------------Serviço ao clube-------------------------
+
+%% Adicione suas informações no arquivo servico.tex
+
+\newpage
+\vspace*{\fill}
+\thispagestyle{empty}
+\section{SERVIÇO AO CLUBE}
+\vspace*{\fill}
+
+\include{servico}
+
+%-----------------Liderança aplicada-----------------------
+
+%% Adicione suas informações no arquivo lideranca.tex
+
+\newpage
+\vspace*{\fill}
+\thispagestyle{empty}
+\section{LIDERANÇA APLICADA}
+\vspace*{\fill}
+
+\include{lideranca}
+
+\end{document}
+
+%  -------------------------------------------------------------
+% |                     Fim do documento                        |
+%  -------------------------------------------------------------
